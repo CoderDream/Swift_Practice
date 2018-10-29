@@ -25,13 +25,14 @@ p.show();
 //输出结果: name = zs age = 99
 
 enum LightSwitch{
-    case OFF, ON;
+    case OFF
+    case ON
     mutating func next()  {
         switch self{
-        case OFF:
-            self = ON;
-        case ON:
-            self = OFF;
+        case .OFF:
+            self = .ON;
+        case .ON:
+            self = .OFF;
         }
     }
 }
