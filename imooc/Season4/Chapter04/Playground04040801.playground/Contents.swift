@@ -32,7 +32,7 @@ class SinglePlayerTurnBasedGame: TurnBasedGame {
                 print("ROUND", turn, ":")
             }
             delegate.playerMove()
-            delegate.turnEnd?()
+            delegate.turnEnd?() //  游戏结束没有实际操作，所以可以直接略过
             turn += 1
         }
         delegate.gameEnd()
