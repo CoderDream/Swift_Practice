@@ -22,7 +22,7 @@ class SmartAirConditioner {
     }
     
     deinit {
-        print("Smart Air-Conditioner is being deinitialiezed!")
+        print("Smart Air-Conditioner is being deinitialized!")
     }
 }
 
