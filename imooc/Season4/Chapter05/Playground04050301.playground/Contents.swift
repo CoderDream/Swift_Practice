@@ -50,6 +50,8 @@ class VendingMachine {
             throw MyError.OutOfStock
         }
         
+        dispenseItem(itemName: itemName)
+        
         return money - item.price
     }
     

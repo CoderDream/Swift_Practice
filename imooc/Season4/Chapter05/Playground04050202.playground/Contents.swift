@@ -42,7 +42,8 @@ class VendingMachine {
             // return money
         }
         
-        //
+        //        
+        dispenseItem(itemName: itemName)
         
         return money - item.price
     }
